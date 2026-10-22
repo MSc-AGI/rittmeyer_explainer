@@ -1,0 +1,83 @@
+---
+permalink: /index.html
+---
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rittmeyer erklärt</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=Inter+Tight:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B1E33;
+    --panel: #13304D;
+    --ink: #EEF3F8;
+    --muted: #8A9BB0;
+    --accent: #4FB3E8;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink); }
+  body { font-family: 'Inter Tight', system-ui, sans-serif; font-size: 17px; line-height: 1.55; }
+  main { max-width: 1080px; margin: 0 auto; padding: 56px 24px 40px; }
+  .kicker { font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: var(--accent); letter-spacing: 0.04em; margin: 0 0 10px; }
+  h1 { font-size: clamp(32px, 5vw, 52px); font-weight: 700; line-height: 1.1; margin: 0 0 14px; }
+  .lead { color: var(--muted); margin: 0 0 48px; max-width: 640px; }
+  section { margin: 0 0 56px; }
+  h2 { font-size: clamp(22px, 3vw, 30px); font-weight: 600; margin: 0 0 18px; }
+  .player { background: #000; border-radius: 10px; overflow: hidden; border: 1px solid var(--panel); }
+  video { display: block; width: 100%; height: auto; }
+  .meta { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 14px 0 0; font-size: 15px; color: var(--muted); }
+  a { color: var(--accent); }
+  a:hover { color: #8FD0F2; }
+  details { margin: 18px 0 0; background: var(--panel); border-radius: 10px; padding: 14px 20px; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: 12px 0 0; color: #D5DEE8; }
+  .ts { font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--accent); margin-right: 8px; }
+  footer { border-top: 1px solid var(--panel); padding-top: 20px; font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">Rittmeyer AG · BRUGG Group</p>
+  <h1>Rittmeyer erklärt</h1>
+  <p class="lead">Kurze Erklärvideos zu Rittmeyer und der BRUGG Group, mit Ton und einschaltbaren Untertiteln. Falls der Ton nicht läuft: Untertitel über das Player-Menü einschalten oder den Sprechtext unter dem Video lesen.</p>
+
+  <section id="teil1">
+    <h2>Teil 1: Rittmeyer und die BRUGG Group</h2>
+    <div class="player">
+      <video controls preload="metadata" playsinline poster="teil1_poster_v2_221026_1535.jpg">
+        <source src="Rittmeyer_Explainer_DE_v3_221026_1502.mp4" type="video/mp4">
+        <track kind="subtitles" src="teil1_untertitel_de_221026_1535.vtt" srclang="de" label="Deutsch">
+      </video>
+    </div>
+    <div class="meta">
+      <span>3:12 Minuten · Deutsch</span>
+      <a href="Rittmeyer_Explainer_DE_v3_221026_1502.mp4" download>Video herunterladen (MP4, 16 MB)</a>
+    </div>
+    <details>
+      <summary>Sprechtext lesen</summary>
+      <p><span class="ts">0:00</span>Rittmeyer AG, gegründet 1904 in Baar. Seit über hundert Jahren Messtechnik und Daten für Wasser und Energie.</p>
+      <p><span class="ts">0:10</span>Rittmeyer ist eine von sieben Einheiten der BRUGG Group und gehört seit 1979 dazu. CEO Roger Amhof sitzt in der Konzernleitung der Gruppe. Über das Joint Venture Rittmeyer aqotec ist Rittmeyer zudem in der Fernwärme aktiv, mit Wärmeübergabestationen und Regelungen.</p>
+      <p><span class="ts">0:30</span>BRUGG begann 1896 als Kabelwerk. Heute zählt die Energiewende, mit der Strategie BRUGG 2028. Kontrolliert von der Familie Suhner.</p>
+      <p><span class="ts">0:42</span>2025 erzielte die Gruppe 646 Millionen Franken Umsatz, mit rund 2270 Mitarbeitenden. Rittmeyers Umsatz wird nicht veröffentlicht.</p>
+      <p><span class="ts">0:55</span>Rittmeyer selbst hat rund 290 Mitarbeitende und über 20000 Installationen weltweit. Tätig ist es ausserhalb der Schweiz in Europa, Amerika und Indonesien. 2025 waren die Aufträge solide und Amerika wuchs, in Asien wurden die Ziele verfehlt.</p>
+      <p><span class="ts">1:15</span>Kunden sind Stadtwerke, Kantone, Industrie und Kraftwerke, von Trinkwasser über Abwasser und Wasserkraft bis Fernwärme. Referenzen reichen von Abwasserzentralen in Liechtenstein bis zu Sensoren für A2A in Italien. Die Spezialität: Wasserkraft und grosse Talsperren.</p>
+      <p><span class="ts">1:35</span>Rittmeyer deckt die ganze Kette ab. Instrumente messen Durchfluss und Pegel. Energieautarke IoT-Sensoren senden die Daten. Das Leitsystem RITOP steuert die Anlagen. Die Plattform RITUNE läuft in einer Schweizer oder EU-Cloud. WaterShield und RISOURCE machen daraus Analysen. Service und Fernwärme über Rittmeyer aqotec ergänzen das Angebot.</p>
+      <p><span class="ts">2:00</span>Die wichtigsten Wettbewerber sind Siemens, ABB und Xylem. In der Schweiz arbeiten regionale Integratoren oft auf Plattformen von Siemens oder Schneider.</p>
+      <p><span class="ts">2:12</span>Kunden kämpfen mit Trockenheit und Starkregen, verstreuten Daten, kleinen Teams und strengeren Regeln zur Cybersicherheit. Rittmeyer und BRUGG haben eigenen Druck: flaches Wachstum, Abhängigkeit von Europa, verfehlte Ziele in Asien und wenig Grösse neben Siemens und ABB.</p>
+      <p><span class="ts">2:32</span>Hier setzt KI an: angewandt, sicher und nachvollziehbar. RITUNE prüft Daten auf Plausibilität und findet Optimierungspotenzial. WaterShield warnt früh bei Abweichungen der Wasserqualität. Im Forschungsprojekt RECYBA findet ein neuronales Netz von Rittmeyer Energieverschwendung. Für den CEO zählt KI erst mit echtem Kundennutzen.</p>
+      <p><span class="ts">2:55</span>Digital ist die ganze Gruppe: Fatzer mit dem digitalen Seilzwilling, Geobrugg mit Guard-Sensoren, BRUGG Lifting mit digitalem Service.</p>
+      <p><span class="ts">3:05</span>Rittmeyer ist die Dateneinheit von BRUGG. Vom Sensor zur Erkenntnis.</p>
+    </details>
+  </section>
+
+  <footer>
+    Quellen: Firmenwebseiten, Presse, Datenanbieter. Stand Oktober 2026.<br>
+    Marcelo Caballero · <a href="https://my-ai-os.ch">my-ai-os.ch</a>
+  </footer>
+</main>
+</body>
+</html>
