@@ -1,0 +1,284 @@
+---
+permalink: /index.html
+---
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rittmeyer: Nützlich vor möglich</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter+Tight:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B1E33;
+    --panel: #13304D;
+    --ink: #EEF3F8;
+    --muted: #8A9BB0;
+    --accent: #4FB3E8;
+    --amber: #FFB347;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink); }
+  body { font-family: 'Inter Tight', system-ui, sans-serif; font-size: 17px; line-height: 1.55; overflow-x: hidden; }
+  main { max-width: 1080px; margin: 0 auto; padding: 56px 24px 40px; }
+  .kicker { font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: var(--accent); letter-spacing: 0.04em; margin: 0 0 10px; }
+  h1 { font-size: clamp(32px, 5vw, 52px); font-weight: 700; line-height: 1.1; margin: 0 0 14px; }
+  .lead { color: var(--muted); margin: 0 0 40px; max-width: 680px; }
+  section { margin: 0 0 56px; scroll-margin-top: 24px; }
+  h2 { font-size: clamp(22px, 3vw, 30px); font-weight: 600; margin: 0 0 14px; }
+  .agenda { background: var(--panel); border-radius: 10px; padding: 22px 24px; margin: 0 0 56px; }
+  .agenda h2 { font-size: 22px; margin: 0 0 14px; }
+  .agenda ol { list-style: none; margin: 0; padding: 0; }
+  .agenda li { display: grid; grid-template-columns: 36px 1fr auto; gap: 4px 12px; padding: 12px 0; border-top: 1px solid rgba(138,155,176,0.25); }
+  .agenda li:first-child { border-top: 0; padding-top: 0; }
+  .agenda .nr { font-family: 'IBM Plex Mono', monospace; font-weight: 600; color: var(--accent); font-size: 18px; }
+  .agenda a { color: var(--ink); font-weight: 600; text-decoration: none; }
+  .agenda a:hover { color: var(--accent); }
+  .agenda .frage { display: block; color: var(--muted); font-size: 15px; }
+  .agenda .dauer { font-family: 'IBM Plex Mono', monospace; font-size: 14px; color: var(--muted); white-space: nowrap; }
+  .intro { margin: 0 0 14px; max-width: 760px; color: #D5DEE8; }
+  .struktur { margin: 0 0 20px; padding: 14px 20px; border-left: 3px solid var(--accent); background: rgba(19,48,77,0.55); border-radius: 0 10px 10px 0; }
+  .struktur p { margin: 0 0 6px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--accent); letter-spacing: 0.04em; }
+  .struktur ul { list-style: none; margin: 0; padding: 0; columns: 2 300px; column-gap: 32px; }
+  .struktur li { font-size: 15px; color: #D5DEE8; padding: 2px 0; break-inside: avoid; }
+  .player { background: #000; border-radius: 10px; overflow: hidden; border: 1px solid var(--panel); }
+  video { display: block; width: 100%; height: auto; }
+  .meta { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 14px 0 0; font-size: 15px; color: var(--muted); }
+  .disclaimer { margin: 8px 0 0; font-size: 13px; color: var(--muted); }
+  .disclaimer b { color: var(--amber); font-weight: 600; }
+  a { color: var(--accent); }
+  a:hover { color: #8FD0F2; }
+  .deck-card { display: block; background: #fff; border-radius: 10px; overflow: hidden; border: 1px solid var(--panel); }
+  .deck-card img { display: block; width: 100%; height: auto; }
+  details { margin: 18px 0 0; background: var(--panel); border-radius: 10px; padding: 14px 20px; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: 12px 0 0; color: #D5DEE8; }
+  .ts { font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--accent); margin-right: 8px; }
+  footer { border-top: 1px solid var(--panel); padding-top: 20px; font-size: 14px; color: var(--muted); }
+  .draft {
+    position: fixed; top: 34px; right: -64px; z-index: 1000;
+    width: 240px; padding: 8px 0; transform: rotate(45deg);
+    background: var(--amber); color: #0B1E33; text-align: center;
+    font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 16px; letter-spacing: 0.3em;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.35); pointer-events: none;
+  }
+</style>
+</head>
+<body>
+<div class="draft" aria-label="Entwurf">DRAFT</div>
+<main>
+  <p class="kicker">Rittmeyer AG · BRUGG Group</p>
+  <h1>Rittmeyer: Nützlich vor möglich</h1>
+  <p class="lead">Eine Aussensicht auf Rittmeyer aus öffentlichen Quellen, in vier Schritten: drei Erklärvideos mit Ton und einschaltbaren Untertiteln, danach eine Präsentation zum Nachlesen. Falls der Ton nicht läuft: Untertitel über das Player-Menü einschalten oder den Sprechtext unter dem Video lesen.</p>
+
+  <nav class="agenda" aria-label="Aufbau dieser Seite">
+    <h2>Aufbau dieser Seite</h2>
+    <ol>
+      <li><span class="nr">1</span><span><a href="#teil1">Teil 1: Rittmeyer und die BRUGG Group</a><span class="frage">Video · Wer ist Rittmeyer?</span></span><span class="dauer">3:12</span></li>
+      <li><span class="nr">2</span><span><a href="#teil2">Teil 2: KI, wo das Wasser fliesst</a><span class="frage">Video · Wie nutzt Rittmeyer KI heute?</span></span><span class="dauer">3:26</span></li>
+      <li><span class="nr">3</span><span><a href="#teil3">Teil 3: Nützlich vor möglich</a><span class="frage">Video · Wohin kann Rittmeyer gehen?</span></span><span class="dauer">11:24</span></li>
+      <li><span class="nr">4</span><span><a href="#praesentation">Präsentation: Nützlich vor möglich</a><span class="frage">Alles im Detail, mit Quellen</span></span><span class="dauer">31 Folien</span></li>
+    </ol>
+  </nav>
+
+  <section id="teil1">
+    <h2>Teil 1: Rittmeyer und die BRUGG Group</h2>
+    <p class="intro">Der Einstieg. Wer Rittmeyer ist, wie es zur BRUGG Group gehört, wem es was verkauft und unter welchem Druck Kunden und Unternehmen stehen.</p>
+    <div class="struktur">
+      <p>STRUKTUR</p>
+      <ul>
+        <li><span class="ts">0:00</span>Rittmeyer und die BRUGG Group</li>
+        <li><span class="ts">0:42</span>Kennzahlen der Gruppe und von Rittmeyer</li>
+        <li><span class="ts">1:15</span>Kunden und Referenzen</li>
+        <li><span class="ts">1:35</span>Das Angebot vom Sensor bis zur Plattform</li>
+        <li><span class="ts">2:00</span>Wettbewerb</li>
+        <li><span class="ts">2:12</span>Herausforderungen für Kunden und Rittmeyer</li>
+        <li><span class="ts">2:32</span>Wo KI ansetzt</li>
+        <li><span class="ts">2:55</span>Die digitale Gruppe, Fazit</li>
+      </ul>
+    </div>
+    <div class="player">
+      <video controls preload="metadata" playsinline poster="teil1_poster_v2_221026_1535.jpg">
+        <source src="Rittmeyer_Explainer_DE_v3_221026_1502.mp4" type="video/mp4">
+        <track kind="subtitles" src="teil1_untertitel_de_221026_1535.vtt" srclang="de" label="Deutsch">
+      </video>
+    </div>
+    <div class="meta">
+      <span>3:12 Minuten · Deutsch</span>
+      <a href="Rittmeyer_Explainer_DE_v3_221026_1502.mp4" download>Video herunterladen (MP4, 16 MB)</a>
+    </div>
+    <p class="disclaimer"><b>Disclaimer:</b> Entwurf, mit KI-Hilfe erstellt.</p>
+    <details>
+      <summary>Sprechtext lesen</summary>
+      <p><span class="ts">0:00</span>Rittmeyer AG, gegründet 1904 in Baar. Seit über hundert Jahren Messtechnik und Daten für Wasser und Energie.</p>
+      <p><span class="ts">0:10</span>Rittmeyer ist eine von sieben Einheiten der BRUGG Group und gehört seit 1979 dazu. CEO Roger Amhof sitzt in der Konzernleitung der Gruppe. Über das Joint Venture Rittmeyer aqotec ist Rittmeyer zudem in der Fernwärme aktiv, mit Wärmeübergabestationen und Regelungen.</p>
+      <p><span class="ts">0:30</span>BRUGG begann 1896 als Kabelwerk. Heute zählt die Energiewende, mit der Strategie BRUGG 2028. Kontrolliert von der Familie Suhner.</p>
+      <p><span class="ts">0:42</span>2025 erzielte die Gruppe 646 Millionen Franken Umsatz, mit rund 2270 Mitarbeitenden. Rittmeyers Umsatz wird nicht veröffentlicht.</p>
+      <p><span class="ts">0:55</span>Rittmeyer selbst hat rund 290 Mitarbeitende und über 20000 Installationen weltweit. Tätig ist es ausserhalb der Schweiz in Europa, Amerika und Indonesien. 2025 waren die Aufträge solide und Amerika wuchs, in Asien wurden die Ziele verfehlt.</p>
+      <p><span class="ts">1:15</span>Kunden sind Stadtwerke, Kantone, Industrie und Kraftwerke, von Trinkwasser über Abwasser und Wasserkraft bis Fernwärme. Referenzen reichen von Abwasserzentralen in Liechtenstein bis zu Sensoren für A2A in Italien. Die Spezialität: Wasserkraft und grosse Talsperren.</p>
+      <p><span class="ts">1:35</span>Rittmeyer deckt die ganze Kette ab. Instrumente messen Durchfluss und Pegel. Energieautarke IoT-Sensoren senden die Daten. Das Leitsystem RITOP steuert die Anlagen. Die Plattform RITUNE läuft in einer Schweizer oder EU-Cloud. WaterShield und RISOURCE machen daraus Analysen. Service und Fernwärme über Rittmeyer aqotec ergänzen das Angebot.</p>
+      <p><span class="ts">2:00</span>Die wichtigsten Wettbewerber sind Siemens, ABB und Xylem. In der Schweiz arbeiten regionale Integratoren oft auf Plattformen von Siemens oder Schneider.</p>
+      <p><span class="ts">2:12</span>Kunden kämpfen mit Trockenheit und Starkregen, verstreuten Daten, kleinen Teams und strengeren Regeln zur Cybersicherheit. Rittmeyer und BRUGG haben eigenen Druck: flaches Wachstum, Abhängigkeit von Europa, verfehlte Ziele in Asien und wenig Grösse neben Siemens und ABB.</p>
+      <p><span class="ts">2:32</span>Hier setzt KI an: angewandt, sicher und nachvollziehbar. RITUNE prüft Daten auf Plausibilität und findet Optimierungspotenzial. WaterShield warnt früh bei Abweichungen der Wasserqualität. Im Forschungsprojekt RECYBA findet ein neuronales Netz von Rittmeyer Energieverschwendung. Für den CEO zählt KI erst mit echtem Kundennutzen.</p>
+      <p><span class="ts">2:55</span>Digital ist die ganze Gruppe: Fatzer mit dem digitalen Seilzwilling, Geobrugg mit Guard-Sensoren, BRUGG Lifting mit digitalem Service.</p>
+      <p><span class="ts">3:05</span>Rittmeyer ist die Dateneinheit von BRUGG. Vom Sensor zur Erkenntnis.</p>
+    </details>
+  </section>
+
+  <section id="teil2">
+    <h2>Teil 2: KI, wo das Wasser fliesst</h2>
+    <p class="intro">Teil 1 endet bei der Frage, wo KI ansetzt. Teil 2 zeigt, wie Rittmeyer KI heute einsetzt: von der Datenplattform über Assistenten bis zur Forschung.</p>
+    <div class="struktur">
+      <p>STRUKTUR</p>
+      <ul>
+        <li><span class="ts">0:00</span>Das Datenproblem der Wasserversorger</li>
+        <li><span class="ts">0:30</span>Rittmeyers Haltung zu KI</li>
+        <li><span class="ts">0:50</span>RITUNE, Beispiel Kläranlage Nürtingen</li>
+        <li><span class="ts">1:16</span>WaterShield für Trinkwasser</li>
+        <li><span class="ts">1:30</span>Richi für Kanalnetze</li>
+        <li><span class="ts">2:04</span>Verbundsteuerung bei Starkregen</li>
+        <li><span class="ts">2:27</span>Forschungsprojekt RECYBA</li>
+        <li><span class="ts">2:52</span>Datenbasis und ehrliche Einordnung</li>
+      </ul>
+    </div>
+    <div class="player">
+      <video controls preload="metadata" playsinline poster="teil2_poster_221026_1551.jpg">
+        <source src="Rittmeyer_Part2_KI_DE_221026_1548.mp4" type="video/mp4">
+        <track kind="subtitles" src="teil2_untertitel_de_221026_1551.vtt" srclang="de" label="Deutsch">
+      </video>
+    </div>
+    <div class="meta">
+      <span>3:26 Minuten · Deutsch</span>
+      <a href="Rittmeyer_Part2_KI_DE_221026_1548.mp4" download>Video herunterladen (MP4, 13 MB)</a>
+    </div>
+    <p class="disclaimer"><b>Disclaimer:</b> Entwurf, mit KI-Hilfe erstellt.</p>
+    <details>
+      <summary>Sprechtext lesen</summary>
+      <p><span class="ts">0:00</span>Jeden Tag erfassen Wasserversorger riesige Datenmengen: Pegel, Durchflüsse, Pumpen, Drücke. Doch vieles davon wird nie ausgewertet. Nicht aus Desinteresse, sondern weil die Zeit fehlt.</p>
+      <p><span class="ts">0:14</span>Dies ist Teil zwei unseres Blicks auf Rittmeyer, den Schweizer Spezialisten für Wasser- und Energieautomation in der BRUGG Group, mit Sitz in Baar. Diesmal geht es um eine Frage: Wie nutzt Rittmeyer künstliche Intelligenz?</p>
+      <p><span class="ts">0:30</span>Rittmeyers Antwort ist bewusst praktisch: KI soll sicher, nachvollziehbar und nützlich sein. Im Fokus stehen Wasserqualität, Anlagenoptimierung, Datenanalyse und digitale Assistenten. Und in der BRUGG Group entsteht ein KI-Programm mit eigenen Rollen für Governance und Technologie.</p>
+      <p><span class="ts">0:50</span>Der erste Baustein ist RITUNE. RITUNE sammelt Daten aus Leitsystemen, Wetterstationen und Betriebsprotokollen und prüft mit KI und Statistik, ob die Werte plausibel sind. Es erkennt Anomalien in Echtzeit und macht aus Mustern Empfehlungen. In der Kläranlage Nürtingen setzt das Personal diese Empfehlungen noch von Hand um. Die KI schlägt vor. Der Mensch entscheidet.</p>
+      <p><span class="ts">1:16</span>Für das Trinkwasser gibt es WaterShield. Es verknüpft mehrere Qualitätswerte und verfolgt ihre Trends. So fallen ungewöhnliche Veränderungen früh auf, und der Betrieb kann rechtzeitig reagieren.</p>
+      <p><span class="ts">1:30</span>Dann gibt es Richi, einen virtuellen Mitarbeiter für Kanalnetze. Richi entstand von 2020 bis 2022 mit dem Wasserforschungsinstitut Eawag, dem Ingenieurbüro Hunziker Betatech und zwei Schweizer Abwasserverbänden, gefördert von Innosuisse. Richi arbeitet mit rund hundert physikalischen und empirischen Regeln. Er soll Pumpen und Pegel analysieren, unerwünschtes Grundwasser im Kanal erkennen und per Chat, im Leitsystem oder per Mail berichten. Seine Aufgabe ist die Datenarbeit, die niemand machen will.</p>
+      <p><span class="ts">2:04</span>Bei Starkregen laufen Kanäle in Flüsse und Seen über. Zusammen mit dem Partner RTC4Water verbindet Rittmeyer Regenbecken zu einem virtuellen Netz. Ein vorausschauender Regler entscheidet, wohin das Wasser fliesst, im Normalbetrieb voll autonom. Das Ergebnis laut Rittmeyer: bis zu dreissig Prozent weniger Überlauf an den Becken.</p>
+      <p><span class="ts">2:27</span>In der Forschung geht Rittmeyer weiter. Im Projekt RECYBA mit der Hochschule Magdeburg-Stendal und Avacon Wasser hilft ein neuronales Netz von Rittmeyer, Energieverschwendung in Kläranlagen zu finden. Es vergleicht jede Anlage mit ähnlichen und zeigt, wo diese effizienter laufen. Die Forschenden halten bis zu achtzig Prozent Einsparung für möglich. Das ist eine Schätzung, noch kein Ergebnis.</p>
+      <p><span class="ts">2:52</span>All das braucht zuerst eine solide Datenbasis. Rittmeyer betreibt bereits ganze Leitsysteme in der Cloud, bereitet Daten KI-fähig auf und setzt sich für eine offene nationale Wasserdatenplattform der Schweiz ein.</p>
+      <p><span class="ts">3:08</span>Eine ehrliche Anmerkung: Nicht alles, was KI heisst, ist maschinelles Lernen. Vieles sind Regeln, Statistik und Optimierung, und genau das braucht kritische Infrastruktur oft. Rittmeyers Weg: vom Sensor über die Daten zur Erkenntnis. Der Mensch behält die Kontrolle.</p>
+    </details>
+  </section>
+
+  <section id="teil3">
+    <h2>Teil 3: Nützlich vor möglich</h2>
+    <p class="intro">Nach dem Ist-Zustand der Blick nach vorn: was kritische Infrastruktur verlangt, was andere Länder und Anbieter tun und wie eine Roadmap für Rittmeyer aussehen kann.</p>
+    <div class="struktur">
+      <p>STRUKTUR</p>
+      <ul>
+        <li><span class="ts">0:38</span>Ausgangslage: kritische Infrastruktur</li>
+        <li><span class="ts">2:19</span>Rittmeyer heute</li>
+        <li><span class="ts">4:40</span>Was andere Länder tun</li>
+        <li><span class="ts">6:31</span>Was die grossen Anbieter bauen</li>
+        <li><span class="ts">7:35</span>Was das für Rittmeyer heisst</li>
+        <li><span class="ts">8:21</span>Roadmap in drei Horizonten</li>
+        <li><span class="ts">9:39</span>Das Produktteam: Menschen, Prozesse, Werkzeuge</li>
+      </ul>
+    </div>
+    <div class="player">
+      <video controls preload="metadata" playsinline poster="teil3_poster_231026_0022.jpg">
+        <source src="Rittmeyer_Part3_DE_v3_221026_2316.mp4" type="video/mp4">
+        <track kind="subtitles" src="teil3_untertitel_de_v2_221026_2316.vtt" srclang="de" label="Deutsch">
+      </video>
+    </div>
+    <div class="meta">
+      <span>11:24 Minuten · Deutsch</span>
+      <a href="Rittmeyer_Part3_DE_v3_221026_2316.mp4" download>Video herunterladen (MP4, 48 MB)</a>
+    </div>
+    <p class="disclaimer"><b>Disclaimer:</b> Entwurf, mit KI-Hilfe erstellt.</p>
+    <details>
+      <summary>Sprechtext lesen</summary>
+      <p><span class="ts">0:00</span>In der Schweiz versorgt ein Vollzeitmitarbeiter einer Wasserversorgung im Durchschnitt 2800 Einwohner. Und seit April 2025 muss ein Cyberangriff auf diese Versorgung innerhalb von 24 Stunden gemeldet werden. Das ist kritische Infrastruktur. Wenig Personal, hohe Verantwortung, keine Fehlertoleranz.</p>
+      <p><span class="ts">0:22</span>Rittmeyer, Teil drei. Nützlich vor möglich. Ein Blick von aussen in vier Schritten: was kritische Infrastruktur verlangt, was Rittmeyer heute kann, was andere tun, und wie ein Produktteam die nächsten Schritte gehen kann.</p>
+      <p><span class="ts">0:38</span>Zuerst die Ausgangslage.</p>
+      <p><span class="ts">0:41</span>Der Bund zählt neun Sektoren und 27 Teilsektoren zur kritischen Infrastruktur. Und er zählt jedes Element dazu, das in einem dieser Teilsektoren Leistungen erbringt. Auch das Leitsystem einer kleinen Gemeinde.</p>
+      <p><span class="ts">0:56</span>Die Wasserversorgung hat dabei die höchste Kritikalitätsstufe, weil niemand auf Wasser verzichten kann und es sich kurzfristig nicht ersetzen lässt.</p>
+      <p><span class="ts">1:05</span>Diese Infrastruktur ist kleinteilig. Rund 2400 eigenständige Wasserversorgungen. Über die Hälfte der Fassungen versorgt Gemeinden mit weniger als 2000 Einwohnern. Rund 700 Kläranlagen, 60'000 Kilometer Kanalisation. 706 Wasserkraftzentralen, die rund 58 Prozent des Schweizer Stroms liefern.</p>
+      <p><span class="ts">1:28</span>Sie ist alt. Die Blütezeit des Wasserkraftausbaus lag zwischen 1945 und 1970.</p>
+      <p><span class="ts">1:37</span>Sie ist reguliert. In Deutschland gelten seit Dezember 2025 die NIS-2-Regeln und seit März 2026 das KRITIS-Dachgesetz, das seit Juli ausdrücklich auch Software und IT-Dienste als Anlagen zählt, wenn sie physische Prozesse steuern.</p>
+      <p><span class="ts">1:55</span>Sie ist gestresst. Der Hitzesommer 2026 war ein Stresstest. Kleine Quellversorgungen mussten schliessen.</p>
+      <p><span class="ts">2:03</span>Und sie steht vor Investitionen. Allein die 130 grössten Kläranlagen brauchen bis 2040 rund 1,2 Milliarden Franken für die Stufe gegen Mikroverunreinigungen.</p>
+      <p><span class="ts">2:19</span>In dieser Welt arbeitet Rittmeyer seit 1904. Rund 70 Millionen Franken Umsatz, über 300 Mitarbeitende, 20'000 installierte Lösungen. 61 Prozent des Umsatzes in der Schweiz, 15 Prozent in Österreich.</p>
+      <p><span class="ts">2:36</span>Zwei Geschäfte. Das Produktgeschäft: eigene Messtechnik, international. Das Projektgeschäft: Automatisierung bestehender Anlagen, vor allem im deutschsprachigen Raum.</p>
+      <p><span class="ts">2:48</span>Im Zentrum der Messtechnik steht RISONIC. Ultraschall-Laufzeitmessung mit bis zu 20 Pfaden, in Rohren mit über zehn Metern Durchmesser. Genauigkeit laut Hersteller bis 0,5 Prozent im Betrieb, bis 0,16 Prozent unter Idealbedingungen, abgenommen nach IEC 60041.</p>
+      <p><span class="ts">3:09</span>Ein Gerät, vier Anwendungen: Durchfluss, Turbinenwirkungsgrad, Leckerkennung in Druckleitungen, Sedimentmonitoring.</p>
+      <p><span class="ts">3:18</span>Dazu die IoT-Schicht. RITARK, autonome Sensoren mit bis zu zehn Jahren Stromversorgung. RICITY, Logger und Cloud mit Leckage-Erkennung per Machine Learning. WaterShield für die Früherkennung von Qualitätsabweichungen.</p>
+      <p><span class="ts">3:34</span>Darüber die Leittechnik. RITOP, das modulare SCADA-System, lokal, virtuell oder in der Cloud. Und RITUNE, die Datenplattform, die mit KI und Statistik Daten plausibilisiert und Prozesse optimiert.</p>
+      <p><span class="ts">3:50</span>Die Cloud steht in Schweizer Rechenzentren. In Pian Scariolo im Tessin läuft erstmals eine Kläranlage mit Leitsystem und Optimierung vollständig in der Cloud.</p>
+      <p><span class="ts">4:04</span>Wie KI in kritischer Infrastruktur reift, zeigt die Kläranlage Nürtingen. RITUNE überwacht Sensoren und Pumpen und optimiert das Schlammalter. Die Empfehlungen wurden zuerst von Hand an den Schiebern umgesetzt. Dann wurden die Schieber automatisiert, damit RITUNE künftig über das Leitsystem steuert. Erst Empfehlung, dann Vertrauen, dann Automatisierung.</p>
+      <p><span class="ts">4:27</span>Im Kanalnetz geht Rittmeyer den letzten Schritt bereits. Die prädiktive Verbundsteuerung läuft im Normalbetrieb autonom, mit laut Hersteller bis zu 30 Prozent weniger Überlauf.</p>
+      <p><span class="ts">4:40</span>Andere Länder stehen vor denselben Aufgaben: wenig Personal, alte Anlagen, mehr Regulierung. Sechs Beispiele zeigen, wohin die Branche geht.</p>
+      <p><span class="ts">4:51</span>Singapur hat seinen Wasserverlust von 11 auf 5 Prozent gesenkt. Mit tausenden Sensoren und einem täglich neu kalibrierten digitalen Zwilling, der Lecks auf unter einen Kilometer eingrenzt.</p>
+      <p><span class="ts">5:03</span>Aarhus produziert in seiner Kläranlage Marselisborg 150 Prozent der Energie, die sie verbraucht, und deckt damit rund 90 Prozent des Energiebedarfs des gesamten Wasserkreislaufs.</p>
+      <p><span class="ts">5:16</span>England und Wales verpflichten die Versorger per Regulator zu 17 Prozent weniger Leckage bis 2030 und 50 Prozent bis 2050. Wer verfehlt, zahlt an die Kunden zurück. Bisher fast 135 Millionen Pfund.</p>
+      <p><span class="ts">5:34</span>Barcelona baut digitale Zwillinge für Pumpstationen und Netz. Und in Katalonien zeigt ein Projekt, wohin Assistenten gehen. Ein Betreiber fragt in natürlicher Sprache, ein Agent liest in allen Systemen, nur lesend. Aus 17 Minuten über vier Systeme werden 25 Sekunden, mit 93 Prozent korrekten Antworten.</p>
+      <p><span class="ts">5:55</span>Vitens in den Niederlanden führt einen lebenden digitalen Zwilling mit rund fünf Prozent Abweichung und nutzt ihn, um neue Mitarbeitende schneller auszubilden. Wissenserhalt ist dort das Kernproblem.</p>
+      <p><span class="ts">6:08</span>Berlin lässt KI die Kanalinspektion vorerfassen, mit über 80 Prozent Trefferquote. Die Fachleute korrigieren.</p>
+      <p><span class="ts">6:17</span>Der Markt wächst, laut Schätzung auf 55 Milliarden Dollar bis 2030. Und Energie macht 11 bis 40 Prozent der Betriebskosten aus. Dort liegt der klarste Business Case.</p>
+      <p><span class="ts">6:31</span>Und was bauen die grossen Anbieter, an denen sich Rittmeyer messen muss?</p>
+      <p><span class="ts">6:36</span>Siemens hat 2026 Werkzeuge für Wasserqualität und Kläranlagen mit digitalem Zwilling vorgestellt und zählt über 100 Kunden für seinen Industrial Copilot. Der Wartungs-Copilot senkt laut Siemens die reaktive Wartungszeit in Piloten um 25 Prozent.</p>
+      <p><span class="ts">6:55</span>Xylem baut mit Xylem Vue eine herstellerunabhängige Plattform mit KI-Assistent und schreibt über Agenten mit Governance. Ausdrücklich auch, um das Wissen von Mitarbeitenden vor der Pensionierung zu bewahren.</p>
+      <p><span class="ts">7:08</span>Andritz überwacht mit Metris ein Kraftwerk im Kongo über 452 Diagnose-Indikatoren und erkennt Risse in Laufrädern früh. Voith hört mit OnCare Acoustic Anomalien in Kraftwerken.</p>
+      <p><span class="ts">7:21</span>Reifegrad, ehrlich eingeordnet. Zwillinge, Energieoptimierung und Predictive Maintenance sind produktiv. Copiloten stehen am Anfang. Agenten in der Betriebstechnik sind Konzept und Pilot.</p>
+      <p><span class="ts">7:35</span>Was heisst das für Rittmeyer?</p>
+      <p><span class="ts">7:38</span>Eine Einschätzung. Rittmeyers Stärken: Messtiefe auf Normniveau, Leitsystem und Datenplattform aus einer Hand, Schweizer Cloud, eine grosse installierte Basis. Die Lücken: kein sichtbarer Copilot, keine kommunizierte Zwillingsstrategie, mehrere Plattformnamen nebeneinander, keine sichtbaren Abo-Modelle.</p>
+      <p><span class="ts">7:59</span>Und ein Vorteil, den die Grossen nicht haben. Siemens kommt von der Fabrik, Xylem vom Grossversorger. Rittmeyers Kunde ist die Gemeinde mit einem Mitarbeiter für 2800 Einwohner. Für sie zählt ein souveräner, einfacher, betreuter Service mehr als eine Plattform.</p>
+      <p><span class="ts">8:21</span>Daraus folgt eine Roadmap in drei Horizonten. Eine Einschätzung, gedacht als Hypothesen, nicht als Featureliste.</p>
+      <p><span class="ts">8:30</span>Null bis zwölf Monate. Erstens ein Wissens-Copilot für Betreiber. Handbücher, Alarme, Betriebsprotokolle, nur lesend, mit menschlichem Gegenüber. Zweitens ein Datenqualitätsdienst, der die Plausibilisierung von RITUNE auf alle RITARK- und RICITY-Daten anwendet. Denn das Problem ist nicht der Mangel an Daten, sondern der Mangel an nutzbaren Daten. Drittens, intern, KI-gestütztes Anforderungs- und Ausschreibungsmanagement.</p>
+      <p><span class="ts">8:58</span>Ein bis drei Jahre. RITOP und RITUNE als Service für kleine Versorger, mit eingebautem Nachweis für die 24-Stunden-Meldepflicht. Turbinen- und Pumpenwirkungsgrad als Service auf RISONIC-Basis, international, weil Energie den klarsten Business Case hat. Und der Nürtingen-Pfad als Standard: Empfehlung, Vertrauen, geschlossener Regelkreis.</p>
+      <p><span class="ts">9:21</span>Drei bis fünf Jahre. Modellprädiktive Verbundsteuerung über Anlagengrenzen hinweg. Und die Fähigkeit, an eine nationale Wasserdatenplattform anzudocken, die Rittmeyer in seinem eigenen Whitepaper fordert.</p>
+      <p><span class="ts">9:39</span>Wer das umsetzt, ist ein Team von vier bis fünf Produktmanagern. Drei Hebel: Menschen, Prozesse, Werkzeuge.</p>
+      <p><span class="ts">9:48</span>Menschen. KI-Kompetenz, verbunden mit dem gruppenweiten Programm der BRUGG IT. Jede Person verantwortet ein Segment und ein Ergebnis.</p>
+      <p><span class="ts">9:58</span>Prozesse. Wöchentliche Discovery mit Betreibern. Eine Portfolio-Review mit drei Kennzahlen: Anteil Wartung gegen Innovation, Dauer der Discovery-Zyklen, Time-to-Market. Und eine Ergebnis-Roadmap statt einer Featureliste, weil vorhersagbare Featurelisten das Lernen behindern.</p>
+      <p><span class="ts">10:17</span>Werkzeuge. Ein gemeinsamer, regelgebundener KI-Arbeitsbereich. Hier bringe ich etwas Eigenes mit. Seit Januar 2026 arbeite ich täglich mit einem eigenen KI-Arbeitssystem, gebaut für genau diese Disziplin. Jede Korrektur wird eine Regel. Jede Regel wird ein Gate. Jede Aussage braucht einen Beleg, sonst wird sie blockiert.</p>
+      <p><span class="ts">10:41</span>Die Wahrheit kommt zuerst aus dem laufenden System, dann aus Dateien, dann aus dem Gedächtnis, zuletzt aus dem Web. Und keine Daten verlassen die Maschine. Genau das, was kritische Infrastruktur verlangt.</p>
+      <p><span class="ts">10:56</span>KI ist eine Methode. Manchmal ist die lineare Regression die richtige Antwort.</p>
+      <p><span class="ts">11:02</span>Jeder Agent braucht ein menschliches Gegenüber.</p>
+      <p><span class="ts">11:06</span>Schnell genug, um nicht zurückzufallen. Langsam genug, um zu lernen.</p>
+      <p><span class="ts">11:12</span>Vom Sensor zur Einsicht.</p>
+      <p><span class="ts">11:15</span>Und die Menschen bleiben am Steuer.</p>
+    </details>
+  </section>
+
+  <section id="praesentation">
+    <h2>Präsentation: Nützlich vor möglich</h2>
+    <p class="intro">Die ausführliche Fassung zum Nachlesen. Sie vertieft Teil 3. Jede Zahl hat eine Quelle und ist markiert als Herstellerangabe, Projektangabe, Schätzung oder Einschätzung.</p>
+    <div class="struktur">
+      <p>STRUKTUR</p>
+      <ul>
+        <li><span class="ts">A</span>Kritische Infrastruktur</li>
+        <li><span class="ts">B</span>Rittmeyer von aussen</li>
+        <li><span class="ts">C</span>Wohin die Welt geht</li>
+        <li><span class="ts">D</span>Meine Lesart</li>
+        <li><span class="ts">E</span>Roadmap</li>
+        <li><span class="ts">F</span>Wie ich das Team führen würde</li>
+        <li><span class="ts">+</span>Anhang</li>
+      </ul>
+    </div>
+    <a class="deck-card" href="deck/rittmeyer_strategie_deck_v3_231026_0018.html" target="_blank" rel="noopener">
+      <img src="deck_vorschau_231026_0022.jpg" alt="Titelfolie der Präsentation Nützlich vor möglich">
+    </a>
+    <div class="meta">
+      <span>31 Folien · Deutsch · im Browser, Blättern mit Pfeiltasten oder Klick</span>
+      <a href="deck/rittmeyer_strategie_deck_v3_231026_0018.html" target="_blank" rel="noopener">Präsentation öffnen</a>
+    </div>
+    <p class="disclaimer"><b>Disclaimer:</b> Entwurf, mit KI-Hilfe erstellt.</p>
+  </section>
+
+  <footer>
+    Quellen: Firmenwebseiten, Presse, Behörden und Verbände, Datenanbieter, Eawag, HS Magdeburg-Stendal, RTC4Water. Die Quellen von Teil 3 stehen in der Präsentation. Stand Oktober 2026.<br>
+    Marcelo Caballero · <a href="https://my-ai-os.ch">my-ai-os.ch</a>
+  </footer>
+</main>
+</body>
+</html>
