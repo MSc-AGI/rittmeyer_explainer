@@ -1,0 +1,173 @@
+WEBVTT
+
+1
+00:00:00.600 --> 00:00:04.357
+Jeden Tag erfassen Wasserversorger riesige Datenmengen:
+
+2
+00:00:04.357 --> 00:00:06.747
+Pegel, Durchflüsse, Pumpen, Drücke.
+
+3
+00:00:06.747 --> 00:00:09.411
+Doch vieles davon wird nie ausgewertet.
+
+4
+00:00:09.411 --> 00:00:12.963
+Nicht aus Desinteresse, sondern weil die Zeit fehlt.
+
+5
+00:00:14.500 --> 00:00:23.397
+Dies ist Teil zwei unseres Blicks auf Rittmeyer, den Schweizer Spezialisten für Wasser- und Energieautomation in der BRUGG Group, mit Sitz in Baar.
+
+6
+00:00:23.397 --> 00:00:25.213
+Diesmal geht es um eine Frage:
+
+7
+00:00:25.213 --> 00:00:27.816
+Wie nutzt Rittmeyer künstliche Intelligenz?
+
+8
+00:00:30.500 --> 00:00:33.133
+Rittmeyers Antwort ist bewusst praktisch:
+
+9
+00:00:33.133 --> 00:00:36.345
+KI soll sicher, nachvollziehbar und nützlich sein.
+
+10
+00:00:36.345 --> 00:00:42.126
+Im Fokus stehen Wasserqualität, Anlagenoptimierung, Datenanalyse und digitale Assistenten.
+
+11
+00:00:42.126 --> 00:00:48.420
+Und in der BRUGG Group entsteht ein KI-Programm mit eigenen Rollen für Governance und Technologie.
+
+12
+00:00:50.500 --> 00:00:52.417
+Der erste Baustein ist RITUNE.
+
+13
+00:00:52.417 --> 00:01:01.300
+RITUNE sammelt Daten aus Leitsystemen, Wetterstationen und Betriebsprotokollen und prüft mit KI und Statistik, ob die Werte plausibel sind.
+
+14
+00:01:01.300 --> 00:01:05.646
+Es erkennt Anomalien in Echtzeit und macht aus Mustern Empfehlungen.
+
+15
+00:01:05.646 --> 00:01:10.951
+In der Kläranlage Nürtingen setzt das Personal diese Empfehlungen noch von Hand um.
+
+16
+00:01:10.951 --> 00:01:12.165
+Die KI schlägt vor.
+
+17
+00:01:12.165 --> 00:01:13.635
+Der Mensch entscheidet.
+
+18
+00:01:16.500 --> 00:01:18.952
+Für das Trinkwasser gibt es WaterShield.
+
+19
+00:01:18.952 --> 00:01:22.692
+Es verknüpft mehrere Qualitätswerte und verfolgt ihre Trends.
+
+20
+00:01:22.692 --> 00:01:28.271
+So fallen ungewöhnliche Veränderungen früh auf, und der Betrieb kann rechtzeitig reagieren.
+
+21
+00:01:30.250 --> 00:01:34.447
+Dann gibt es Richi, einen virtuellen Mitarbeiter für Kanalnetze.
+
+22
+00:01:34.447 --> 00:01:45.727
+Richi entstand von 2020 bis 2022 mit dem Wasserforschungsinstitut Eawag, dem Ingenieurbüro Hunziker Betatech und zwei Schweizer Abwasserverbänden, gefördert von Innosuisse.
+
+23
+00:01:45.727 --> 00:01:50.317
+Richi arbeitet mit rund hundert physikalischen und empirischen Regeln.
+
+24
+00:01:50.317 --> 00:01:59.105
+Er soll Pumpen und Pegel analysieren, unerwünschtes Grundwasser im Kanal erkennen und per Chat, im Leitsystem oder per Mail berichten.
+
+25
+00:01:59.105 --> 00:02:02.974
+Seine Aufgabe ist die Datenarbeit, die niemand machen will.
+
+26
+00:02:04.500 --> 00:02:07.849
+Bei Starkregen laufen Kanäle in Flüsse und Seen über.
+
+27
+00:02:07.849 --> 00:02:13.663
+Zusammen mit dem Partner RTC4Water verbindet Rittmeyer Regenbecken zu einem virtuellen Netz.
+
+28
+00:02:13.663 --> 00:02:19.793
+Ein vorausschauender Regler entscheidet, wohin das Wasser fliesst, im Normalbetrieb voll autonom.
+
+29
+00:02:19.793 --> 00:02:21.562
+Das Ergebnis laut Rittmeyer:
+
+30
+00:02:21.562 --> 00:02:25.038
+bis zu dreissig Prozent weniger Überlauf an den Becken.
+
+31
+00:02:27.450 --> 00:02:29.801
+In der Forschung geht Rittmeyer weiter.
+
+32
+00:02:29.801 --> 00:02:39.444
+Im Projekt RECYBA mit der Hochschule Magdeburg-Stendal und Avacon Wasser hilft ein neuronales Netz von Rittmeyer, Energieverschwendung in Kläranlagen zu finden.
+
+33
+00:02:39.444 --> 00:02:44.205
+Es vergleicht jede Anlage mit ähnlichen und zeigt, wo diese effizienter laufen.
+
+34
+00:02:44.205 --> 00:02:48.364
+Die Forschenden halten bis zu achtzig Prozent Einsparung für möglich.
+
+35
+00:02:48.364 --> 00:02:50.955
+Das ist eine Schätzung, noch kein Ergebnis.
+
+36
+00:02:52.500 --> 00:02:55.328
+All das braucht zuerst eine solide Datenbasis.
+
+37
+00:02:55.328 --> 00:03:05.472
+Rittmeyer betreibt bereits ganze Leitsysteme in der Cloud, bereitet Daten KI-fähig auf und setzt sich für eine offene nationale Wasserdatenplattform der Schweiz ein.
+
+38
+00:03:08.300 --> 00:03:09.884
+Eine ehrliche Anmerkung:
+
+39
+00:03:09.884 --> 00:03:13.315
+Nicht alles, was KI heisst, ist maschinelles Lernen.
+
+40
+00:03:13.315 --> 00:03:19.716
+Vieles sind Regeln, Statistik und Optimierung, und genau das braucht kritische Infrastruktur oft.
+
+41
+00:03:19.716 --> 00:03:20.706
+Rittmeyers Weg:
+
+42
+00:03:20.706 --> 00:03:23.412
+vom Sensor über die Daten zur Erkenntnis.
+
+43
+00:03:23.412 --> 00:03:25.523
+Der Mensch behält die Kontrolle.
