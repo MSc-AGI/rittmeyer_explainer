@@ -1,0 +1,565 @@
+WEBVTT
+
+1
+00:00:00.500 --> 00:00:07.571
+In der Schweiz versorgt ein Vollzeitmitarbeiter einer Wasserversorgung im Durchschnitt 2800 Einwohner.
+
+2
+00:00:07.571 --> 00:00:14.781
+Und seit April 2025 muss ein Cyberangriff auf diese Versorgung innerhalb von 24 Stunden gemeldet werden.
+
+3
+00:00:14.781 --> 00:00:16.999
+Das ist kritische Infrastruktur.
+
+4
+00:00:16.999 --> 00:00:20.951
+Wenig Personal, hohe Verantwortung, keine Fehlertoleranz.
+
+5
+00:00:22.951 --> 00:00:24.240
+Rittmeyer, Teil drei.
+
+6
+00:00:24.240 --> 00:00:25.530
+Nützlich vor möglich.
+
+7
+00:00:25.530 --> 00:00:27.924
+Ein Blick von aussen in vier Schritten:
+
+8
+00:00:27.924 --> 00:00:36.336
+was kritische Infrastruktur verlangt, was Rittmeyer heute kann, was andere tun, und wie ein Produktteam die nächsten Schritte gehen kann.
+
+9
+00:00:38.337 --> 00:00:39.982
+Zuerst die Ausgangslage.
+
+10
+00:00:41.337 --> 00:00:46.489
+Der Bund zählt neun Sektoren und 27 Teilsektoren zur kritischen Infrastruktur.
+
+11
+00:00:46.489 --> 00:00:52.169
+Und er zählt jedes Element dazu, das in einem dieser Teilsektoren Leistungen erbringt.
+
+12
+00:00:52.169 --> 00:00:55.009
+Auch das Leitsystem einer kleinen Gemeinde.
+
+13
+00:00:56.209 --> 00:01:04.312
+Die Wasserversorgung hat dabei die höchste Kritikalitätsstufe, weil niemand auf Wasser verzichten kann und es sich kurzfristig nicht ersetzen lässt.
+
+14
+00:01:05.511 --> 00:01:08.252
+Diese Infrastruktur ist kleinteilig.
+
+15
+00:01:08.252 --> 00:01:11.525
+Rund 2400 eigenständige Wasserversorgungen.
+
+16
+00:01:11.525 --> 00:01:17.691
+Über die Hälfte der Fassungen versorgt Gemeinden mit weniger als 2000 Einwohnern.
+
+17
+00:01:17.691 --> 00:01:21.650
+Rund 700 Kläranlagen, 60'000 Kilometer Kanalisation.
+
+18
+00:01:21.650 --> 00:01:27.359
+706 Wasserkraftzentralen, die rund 58 Prozent des Schweizer Stroms liefern.
+
+19
+00:01:28.559 --> 00:01:29.723
+Sie ist alt.
+
+20
+00:01:29.723 --> 00:01:35.930
+Die Blütezeit des Wasserkraftausbaus lag zwischen 1945 und 1970.
+
+21
+00:01:37.130 --> 00:01:38.443
+Sie ist reguliert.
+
+22
+00:01:38.443 --> 00:01:53.836
+In Deutschland gelten seit Dezember 2025 die NIS-2-Regeln und seit März 2026 das KRITIS-Dachgesetz, das seit Juli ausdrücklich auch Software und IT-Dienste als Anlagen zählt, wenn sie physische Prozesse steuern.
+
+23
+00:01:55.036 --> 00:01:56.345
+Sie ist gestresst.
+
+24
+00:01:56.345 --> 00:01:59.254
+Der Hitzesommer 2026 war ein Stresstest.
+
+25
+00:01:59.254 --> 00:02:02.454
+Kleine Quellversorgungen mussten schliessen.
+
+26
+00:02:03.654 --> 00:02:05.932
+Und sie steht vor Investitionen.
+
+27
+00:02:05.932 --> 00:02:14.758
+Allein die 130 grössten Kläranlagen brauchen bis 2040 rund 1,2 Milliarden Franken für die Stufe gegen Mikroverunreinigungen.
+
+28
+00:02:19.758 --> 00:02:23.305
+In dieser Welt arbeitet Rittmeyer seit 1904.
+
+29
+00:02:23.305 --> 00:02:30.320
+Rund 70 Millionen Franken Umsatz, über 300 Mitarbeitende, 20'000 installierte Lösungen.
+
+30
+00:02:30.320 --> 00:02:35.560
+61 Prozent des Umsatzes in der Schweiz, 15 Prozent in Österreich.
+
+31
+00:02:36.760 --> 00:02:37.734
+Zwei Geschäfte.
+
+32
+00:02:37.734 --> 00:02:39.032
+Das Produktgeschäft:
+
+33
+00:02:39.032 --> 00:02:41.240
+eigene Messtechnik, international.
+
+34
+00:02:41.240 --> 00:02:42.538
+Das Projektgeschäft:
+
+35
+00:02:42.538 --> 00:02:47.278
+Automatisierung bestehender Anlagen, vor allem im deutschsprachigen Raum.
+
+36
+00:02:48.479 --> 00:02:51.593
+Im Zentrum der Messtechnik steht RISONIC.
+
+37
+00:02:51.593 --> 00:02:58.656
+Ultraschall-Laufzeitmessung mit bis zu 20 Pfaden, in Rohren mit über zehn Metern Durchmesser.
+
+38
+00:02:58.656 --> 00:03:07.997
+Genauigkeit laut Hersteller bis 0,5 Prozent im Betrieb, bis 0,16 Prozent unter Idealbedingungen, abgenommen nach IEC 60041.
+
+39
+00:03:09.196 --> 00:03:11.205
+Ein Gerät, vier Anwendungen:
+
+40
+00:03:11.205 --> 00:03:17.377
+Durchfluss, Turbinenwirkungsgrad, Leckerkennung in Druckleitungen, Sedimentmonitoring.
+
+41
+00:03:18.578 --> 00:03:19.975
+Dazu die IoT-Schicht.
+
+42
+00:03:19.975 --> 00:03:24.297
+RITARK, autonome Sensoren mit bis zu zehn Jahren Stromversorgung.
+
+43
+00:03:24.297 --> 00:03:28.819
+RICITY, Logger und Cloud mit Leckage-Erkennung per Machine Learning.
+
+44
+00:03:28.819 --> 00:03:32.809
+WaterShield für die Früherkennung von Qualitätsabweichungen.
+
+45
+00:03:34.009 --> 00:03:35.840
+Darüber die Leittechnik.
+
+46
+00:03:35.840 --> 00:03:41.029
+RITOP, das modulare SCADA-System, lokal, virtuell oder in der Cloud.
+
+47
+00:03:41.029 --> 00:03:48.811
+Und RITUNE, die Datenplattform, die mit KI und Statistik Daten plausibilisiert und Prozesse optimiert.
+
+48
+00:03:50.011 --> 00:03:52.647
+Die Cloud steht in Schweizer Rechenzentren.
+
+49
+00:03:52.647 --> 00:03:59.634
+In Pian Scariolo im Tessin läuft erstmals eine Kläranlage mit Leitsystem und Optimierung vollständig in der Cloud.
+
+50
+00:04:04.634 --> 00:04:09.149
+Wie KI in kritischer Infrastruktur reift, zeigt die Kläranlage Nürtingen.
+
+51
+00:04:09.149 --> 00:04:13.354
+RITUNE überwacht Sensoren und Pumpen und optimiert das Schlammalter.
+
+52
+00:04:13.354 --> 00:04:17.498
+Die Empfehlungen wurden zuerst von Hand an den Schiebern umgesetzt.
+
+53
+00:04:17.498 --> 00:04:23.002
+Dann wurden die Schieber automatisiert, damit RITUNE künftig über das Leitsystem steuert.
+
+54
+00:04:23.002 --> 00:04:26.342
+Erst Empfehlung, dann Vertrauen, dann Automatisierung.
+
+55
+00:04:27.542 --> 00:04:31.048
+Im Kanalnetz geht Rittmeyer den letzten Schritt bereits.
+
+56
+00:04:31.048 --> 00:04:38.498
+Die prädiktive Verbundsteuerung läuft im Normalbetrieb autonom, mit laut Hersteller bis zu 30 Prozent weniger Überlauf.
+
+57
+00:04:40.498 --> 00:04:43.508
+Andere Länder stehen vor denselben Aufgaben:
+
+58
+00:04:43.508 --> 00:04:46.723
+wenig Personal, alte Anlagen, mehr Regulierung.
+
+59
+00:04:46.723 --> 00:04:49.938
+Sechs Beispiele zeigen, wohin die Branche geht.
+
+60
+00:04:51.138 --> 00:04:55.002
+Singapur hat seinen Wasserverlust von 11 auf 5 Prozent gesenkt.
+
+61
+00:04:55.002 --> 00:05:02.608
+Mit tausenden Sensoren und einem täglich neu kalibrierten digitalen Zwilling, der Lecks auf unter einen Kilometer eingrenzt.
+
+62
+00:05:03.808 --> 00:05:15.782
+Aarhus produziert in seiner Kläranlage Marselisborg 150 Prozent der Energie, die sie verbraucht, und deckt damit rund 90 Prozent des Energiebedarfs des gesamten Wasserkreislaufs.
+
+63
+00:05:16.981 --> 00:05:27.180
+England und Wales verpflichten die Versorger per Regulator zu 17 Prozent weniger Leckage bis 2030 und 50 Prozent bis 2050.
+
+64
+00:05:27.180 --> 00:05:30.607
+Wer verfehlt, zahlt an die Kunden zurück.
+
+65
+00:05:30.607 --> 00:05:33.282
+Bisher fast 135 Millionen Pfund.
+
+66
+00:05:34.483 --> 00:05:38.562
+Barcelona baut digitale Zwillinge für Pumpstationen und Netz.
+
+67
+00:05:38.562 --> 00:05:42.642
+Und in Katalonien zeigt ein Projekt, wohin Assistenten gehen.
+
+68
+00:05:42.642 --> 00:05:48.660
+Ein Betreiber fragt in natürlicher Sprache, ein Agent liest in allen Systemen, nur lesend.
+
+69
+00:05:48.660 --> 00:05:54.545
+Aus 17 Minuten über vier Systeme werden 25 Sekunden, mit 93 Prozent korrekten Antworten.
+
+70
+00:05:55.745 --> 00:06:04.722
+Vitens in den Niederlanden führt einen lebenden digitalen Zwilling mit rund fünf Prozent Abweichung und nutzt ihn, um neue Mitarbeitende schneller auszubilden.
+
+71
+00:06:04.722 --> 00:06:06.924
+Wissenserhalt ist dort das Kernproblem.
+
+72
+00:06:08.123 --> 00:06:13.982
+Berlin lässt KI die Kanalinspektion vorerfassen, mit über 80 Prozent Trefferquote.
+
+73
+00:06:13.982 --> 00:06:15.840
+Die Fachleute korrigieren.
+
+74
+00:06:17.041 --> 00:06:21.965
+Der Markt wächst, laut Schätzung auf 55 Milliarden Dollar bis 2030.
+
+75
+00:06:21.965 --> 00:06:26.301
+Und Energie macht 11 bis 40 Prozent der Betriebskosten aus.
+
+76
+00:06:26.301 --> 00:06:29.020
+Dort liegt der klarste Business Case.
+
+77
+00:06:31.020 --> 00:06:35.360
+Und was bauen die grossen Anbieter, an denen sich Rittmeyer messen muss?
+
+78
+00:06:36.560 --> 00:06:47.436
+Siemens hat 2026 Werkzeuge für Wasserqualität und Kläranlagen mit digitalem Zwilling vorgestellt und zählt über 100 Kunden für seinen Industrial Copilot.
+
+79
+00:06:47.436 --> 00:06:53.904
+Der Wartungs-Copilot senkt laut Siemens die reaktive Wartungszeit in Piloten um 25 Prozent.
+
+80
+00:06:55.104 --> 00:07:02.069
+Xylem baut mit Xylem Vue eine herstellerunabhängige Plattform mit KI-Assistent und schreibt über Agenten mit Governance.
+
+81
+00:07:02.069 --> 00:07:07.061
+Ausdrücklich auch, um das Wissen von Mitarbeitenden vor der Pensionierung zu bewahren.
+
+82
+00:07:08.262 --> 00:07:16.246
+Andritz überwacht mit Metris ein Kraftwerk im Kongo über 452 Diagnose-Indikatoren und erkennt Risse in Laufrädern früh.
+
+83
+00:07:16.246 --> 00:07:20.003
+Voith hört mit OnCare Acoustic Anomalien in Kraftwerken.
+
+84
+00:07:21.202 --> 00:07:23.269
+Reifegrad, ehrlich eingeordnet.
+
+85
+00:07:23.269 --> 00:07:28.071
+Zwillinge, Energieoptimierung und Predictive Maintenance sind produktiv.
+
+86
+00:07:28.071 --> 00:07:29.871
+Copiloten stehen am Anfang.
+
+87
+00:07:29.871 --> 00:07:33.472
+Agenten in der Betriebstechnik sind Konzept und Pilot.
+
+88
+00:07:35.472 --> 00:07:37.096
+Was heisst das für Rittmeyer?
+
+89
+00:07:38.472 --> 00:07:39.666
+Eine Einschätzung.
+
+90
+00:07:39.666 --> 00:07:40.926
+Rittmeyers Stärken:
+
+91
+00:07:40.926 --> 00:07:48.884
+Messtiefe auf Normniveau, Leitsystem und Datenplattform aus einer Hand, Schweizer Cloud, eine grosse installierte Basis.
+
+92
+00:07:48.884 --> 00:07:49.614
+Die Lücken:
+
+93
+00:07:49.614 --> 00:07:58.368
+kein sichtbarer Copilot, keine kommunizierte Zwillingsstrategie, mehrere Plattformnamen nebeneinander, keine sichtbaren Abo-Modelle.
+
+94
+00:07:59.568 --> 00:08:02.523
+Und ein Vorteil, den die Grossen nicht haben.
+
+95
+00:08:02.523 --> 00:08:06.135
+Siemens kommt von der Fabrik, Xylem vom Grossversorger.
+
+96
+00:08:06.135 --> 00:08:11.061
+Rittmeyers Kunde ist die Gemeinde mit einem Mitarbeiter für 2800 Einwohner.
+
+97
+00:08:11.061 --> 00:08:16.512
+Für sie zählt ein souveräner, einfacher, betreuter Service mehr als eine Plattform.
+
+98
+00:08:21.513 --> 00:08:24.483
+Daraus folgt eine Roadmap in drei Horizonten.
+
+99
+00:08:24.483 --> 00:08:28.838
+Eine Einschätzung, gedacht als Hypothesen, nicht als Featureliste.
+
+100
+00:08:30.037 --> 00:08:31.460
+Null bis zwölf Monate.
+
+101
+00:08:31.460 --> 00:08:34.175
+Erstens ein Wissens-Copilot für Betreiber.
+
+102
+00:08:34.175 --> 00:08:39.284
+Handbücher, Alarme, Betriebsprotokolle, nur lesend, mit menschlichem Gegenüber.
+
+103
+00:08:39.284 --> 00:08:46.720
+Zweitens ein Datenqualitätsdienst, der die Plausibilisierung von RITUNE auf alle RITARK- und RICITY-Daten anwendet.
+
+104
+00:08:46.720 --> 00:08:52.281
+Denn das Problem ist nicht der Mangel an Daten, sondern der Mangel an nutzbaren Daten.
+
+105
+00:08:52.281 --> 00:08:57.131
+Drittens, intern, KI-gestütztes Anforderungs- und Ausschreibungsmanagement.
+
+106
+00:08:58.331 --> 00:08:59.576
+Ein bis drei Jahre.
+
+107
+00:08:59.576 --> 00:09:06.653
+RITOP und RITUNE als Service für kleine Versorger, mit eingebautem Nachweis für die 24-Stunden-Meldepflicht.
+
+108
+00:09:06.653 --> 00:09:14.712
+Turbinen- und Pumpenwirkungsgrad als Service auf RISONIC-Basis, international, weil Energie den klarsten Business Case hat.
+
+109
+00:09:14.712 --> 00:09:17.071
+Und der Nürtingen-Pfad als Standard:
+
+110
+00:09:17.071 --> 00:09:20.216
+Empfehlung, Vertrauen, geschlossener Regelkreis.
+
+111
+00:09:21.416 --> 00:09:22.714
+Drei bis fünf Jahre.
+
+112
+00:09:22.714 --> 00:09:26.671
+Modellprädiktive Verbundsteuerung über Anlagengrenzen hinweg.
+
+113
+00:09:26.671 --> 00:09:34.522
+Und die Fähigkeit, an eine nationale Wasserdatenplattform anzudocken, die Rittmeyer in seinem eigenen Whitepaper fordert.
+
+114
+00:09:39.522 --> 00:09:44.064
+Wer das umsetzt, ist ein Team von vier bis fünf Produktmanagern.
+
+115
+00:09:44.064 --> 00:09:44.845
+Drei Hebel:
+
+116
+00:09:44.845 --> 00:09:46.974
+Menschen, Prozesse, Werkzeuge.
+
+117
+00:09:48.175 --> 00:09:48.791
+Menschen.
+
+118
+00:09:48.791 --> 00:09:53.449
+KI-Kompetenz, verbunden mit dem gruppenweiten Programm der BRUGG IT.
+
+119
+00:09:53.449 --> 00:09:57.148
+Jede Person verantwortet ein Segment und ein Ergebnis.
+
+120
+00:09:58.348 --> 00:09:58.950
+Prozesse.
+
+121
+00:09:58.950 --> 00:10:01.494
+Wöchentliche Discovery mit Betreibern.
+
+122
+00:10:01.494 --> 00:10:04.306
+Eine Portfolio-Review mit drei Kennzahlen:
+
+123
+00:10:04.306 --> 00:10:09.393
+Anteil Wartung gegen Innovation, Dauer der Discovery-Zyklen, Time-to-Market.
+
+124
+00:10:09.393 --> 00:10:16.489
+Und eine Ergebnis-Roadmap statt einer Featureliste, weil vorhersagbare Featurelisten das Lernen behindern.
+
+125
+00:10:17.689 --> 00:10:18.407
+Werkzeuge.
+
+126
+00:10:18.407 --> 00:10:22.070
+Ein gemeinsamer, regelgebundener KI-Arbeitsbereich.
+
+127
+00:10:22.070 --> 00:10:24.512
+Hier bringe ich etwas Eigenes mit.
+
+128
+00:10:24.512 --> 00:10:32.125
+Seit Januar 2026 arbeite ich täglich mit einem eigenen KI-Arbeitssystem, gebaut für genau diese Disziplin.
+
+129
+00:10:32.125 --> 00:10:34.351
+Jede Korrektur wird eine Regel.
+
+130
+00:10:34.351 --> 00:10:36.147
+Jede Regel wird ein Gate.
+
+131
+00:10:36.147 --> 00:10:40.384
+Jede Aussage braucht einen Beleg, sonst wird sie blockiert.
+
+132
+00:10:41.584 --> 00:10:48.794
+Die Wahrheit kommt zuerst aus dem laufenden System, dann aus Dateien, dann aus dem Gedächtnis, zuletzt aus dem Web.
+
+133
+00:10:48.794 --> 00:10:51.239
+Und keine Daten verlassen die Maschine.
+
+134
+00:10:51.239 --> 00:10:54.249
+Genau das, was kritische Infrastruktur verlangt.
+
+135
+00:10:56.250 --> 00:10:57.620
+KI ist eine Methode.
+
+136
+00:10:57.620 --> 00:11:01.523
+Manchmal ist die lineare Regression die richtige Antwort.
+
+137
+00:11:02.722 --> 00:11:05.461
+Jeder Agent braucht ein menschliches Gegenüber.
+
+138
+00:11:06.661 --> 00:11:09.201
+Schnell genug, um nicht zurückzufallen.
+
+139
+00:11:09.201 --> 00:11:11.024
+Langsam genug, um zu lernen.
+
+140
+00:11:12.224 --> 00:11:13.894
+Vom Sensor zur Einsicht.
+
+141
+00:11:15.224 --> 00:11:17.145
+Und die Menschen bleiben am Steuer.
